@@ -53,6 +53,16 @@ nav button {
 .section-1 {
 	flex: 1;
 }
+.section-1 .logo-subtext {
+	font-size: 1.2rem;
+	color: #4285f4;
+	display: block;
+	position: relative;
+	white-space: nowrap;
+	text-align: center;
+	left: 110px;
+	bottom: 10px;
+}
 .section-1 .logo {
 	display: block;
 	margin: 0px auto;
@@ -64,6 +74,7 @@ nav button {
 	position: relative;
 	margin-top: -8px;
 	text-align: center;
+	background: transparent;
 }
 .s-box .s-input {
 	display: block;
@@ -99,6 +110,15 @@ nav button {
 	position: absolute;
 	top: 13px;
 	right: 24px;
+}
+.s-box .camera {
+	width: 24px;
+	position: absolute;
+	top: 13px;
+	right: 24px;
+	background-size: 24px;
+	opacity: 0.7;
+	margin-right: 2rem;
 }
 .s-btn {
 	border: 1px solid transparent;
